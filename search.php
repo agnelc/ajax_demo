@@ -1,11 +1,6 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$database = 'ajax';
-
-$connection = mysqli_connect($host, $user, $password, $database);
+include("db.php");
 
 //if($connection){
 //    echo "Yes it is";

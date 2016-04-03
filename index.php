@@ -26,6 +26,18 @@
             </h2>
             
         </div>
+            
+            <div class="row">
+                <form class="" action="">
+                    <div class="form-group-sm col-md-5">
+                    <input type="text" class="form-control" name="car_name">
+                    </div>
+                    <div class="form-group-sm col-md-1">
+                        <input type="submit" class="btn btn-primary" value="Add Car">
+                    </div>
+                </form>
+            </div>
+            
         <script>
             $(document).ready(function(){
                 $('#search').keyup(function(){
