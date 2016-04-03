@@ -24,7 +24,7 @@
         </div>
             
             <div class="row">
-                <form class="" action="">
+                <form id="add-car-form" class="" action="add_cars.php">
                     <div class="form-group-sm col-md-5">
                     <input type="text" class="form-control" name="car_name">
                     </div>
@@ -32,6 +32,12 @@
                         <input type="submit" class="btn btn-primary" value="Add Car">
                     </div>
                 </form>
+                
+                <div class="col-xs-6">
+                    <div id="car-result">
+                        
+                    </div>
+                </div>
             </div>
             
         <script>
@@ -53,9 +59,28 @@
                        
                    });
                    
-                });
+                });//Eof search keyup 
+                
+                
+                //This code add cars to the database
+                $("#add-car-form").submit(function(evt){
+                    
+                    evt.preventDefault();
+                    var postData = $(this).serialize();
+                    var url = $(this).attr('action');
+                    
+                    $.post(url,postData function(php_table_data){
+                       
+                       
+                    });
+                   
+                });// Eof add-car-form
+                
+                
+                
+                
               
-            });
+            });//document end function
         
         </script>
         
