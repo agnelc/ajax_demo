@@ -3,14 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>AJAX DEMO</title>
-        <!--<script src="custom.js" type="text/javascript"></script>-->
-        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
-       <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <style>
-            
-            
-        </style>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    
         
     </head>
     <body>
