@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>AJAX DEMO</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-              <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!--<script src="custom.js" type="text/javascript"></script>-->
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css"/>
+       <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         <style>
             
@@ -15,7 +16,7 @@
     <body>
 
         <div id="container" class="col-xs-6 col-xs-offset-3 text-center">
-            
+            <div class="row">
             <h2>Search our database</h2>
             <input class="form-control" type="text" name="search" id="search" placeholder="Search our inventory">
             <br>
